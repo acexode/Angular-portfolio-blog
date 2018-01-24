@@ -1,0 +1,37 @@
+<section>
+    <div class="container-fluid">
+      <!-- Example row of columns -->
+      <div class="row">
+           <div class="col-md-12 col-sm-12 title text-center">
+               <h1>Portfolio</h1>
+               <p>lorem ipsum sit where </p>
+           </div>
+       </div>
+<div class="row test">
+            <div class="col-md-10 col-md-offset-2">
+                <nav class="button-group filters-button-group" >
+              <button class="button is-checked" data-filter="*">show all</button>
+              <button *ngFor="let each of both" class={{class}} [attr.data-filter]="each.filter" >
+                  {{each.title}}
+              </button>
+             
+            </nav>
+            </div>
+        </div>
+<div class="row  portfolio"  >
+        
+        <div *ngFor="let g of category" class="{{classes}} {{g.cls}} {{g.cat}}" [attr.data-category]="g.cat">
+          <a class="item" href="">
+            <img  src="{{g.img}}" alt="">
+            <div class="modal-item">
+                <i class="{{fa}}"></i>
+            </div>
+          </a> 
+          <div class="caption">
+            <h3  *ngFor="let h of head">{{h.head}}</h3>
+            <p>{{lorem}}</p>
+        </div>
+       </div>
+</div>
+    </div>
+</section>

@@ -1,0 +1,24 @@
+.wrapper{
+    padding: 20px;
+}
+
+.caption{
+    margin-top: 30px;
+    margin-bottom: 5px
+}
+.fill{
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 20px;
+}
+.form-group{
+    padding: 10px !important;
+    margin-bottom: 15px;
+}
+.submit{
+    width: 100%;
+    border-radius: 20px !important;
+    background: #2196F3;
+    padding: 10px;
+    color: #fff;
+}
